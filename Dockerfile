@@ -1,7 +1,3 @@
-FROM ubuntu:20:04
-
-LABEL LABEL  description=’Dockerfile for installing python3 pip socialfish’
-
 RUN git clone https://github.com/soebedj0/SocialFish.git 
 RUN apt-get update && apt-get install -y \
         python3 \
